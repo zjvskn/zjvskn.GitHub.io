@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zjvskn.GitHub.io</id>
     <title>ZHOU</title>
-    <updated>2021-07-09T09:32:33.091Z</updated>
+    <updated>2021-07-09T09:37:48.027Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zjvskn.GitHub.io"/>
     <link rel="self" href="https://zjvskn.GitHub.io/atom.xml"/>
@@ -10,6 +10,22 @@
     <logo>https://zjvskn.GitHub.io/images/avatar.png</logo>
     <icon>https://zjvskn.GitHub.io/favicon.ico</icon>
     <rights>All rights reserved 2021, ZHOU</rights>
+    <entry>
+        <title type="html"><![CDATA[210709第一篇播客]]></title>
+        <id>https://zjvskn.GitHub.io/post/210709-di-yi-pian-bo-ke/</id>
+        <link href="https://zjvskn.GitHub.io/post/210709-di-yi-pian-bo-ke/">
+        </link>
+        <updated>2021-07-09T09:33:02.000Z</updated>
+        <summary type="html"><![CDATA[<p>#这是我的第一篇播客<br>
+一个新的开始😇   做更好的自己</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>#这是我的第一篇播客<br>
+一个新的开始😇   做更好的自己</p>
+<!-- more -->
+<p>&quot;往自己怀里刨的再多资源，不如冷静想想自己真正吸收了资源的有效部分有多少？能转化可利用的又有多少？外界的资源都是诱惑，没有他不照样过？！有了更好，其实够用就行了。若干年后，回想一下，此刻的网盘可能在你的生命长河中中也曾闪烁出一个光点吧。&quot;</p>
+<figure data-type="image" tabindex="1"><img src="https://zjvskn.GitHub.io/post-images/1625823214461.png" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://zjvskn.GitHub.io/post/hello-gridea/</id>
