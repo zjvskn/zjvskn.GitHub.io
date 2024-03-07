@@ -1,0 +1,71 @@
+# Site Information
+title: ZHOU
+description: "Hi, I'm zjvskn."
+url: zjvskn.github.io
+repo: zjvskn/zjvskn.github.io
+lang: zh-CN
+timezone: Africa/El_Aaiun
+
+# Social Media and External URLs
+github: zjvskn.github.io
+zhihu: zjvskn
+twitter: Hizjvskn
+v2ex: zjvskn
+menu:
+  - title: "Categories"
+    url: "/categories.html"
+  - title: "About"
+    url: "/about.html"
+  - title: "Weekly"
+    url: "zjvskn.github.io"
+
+# SEO and Analytics
+google_analytics: G-KS7EDB6BRM
+
+# Build Settings
+paginate: 10
+post_ext: md
+page_ext: md
+post_layout: post
+page_layout: page
+titlecase: true
+future: true
+highlighter: rouge
+markdown: kramdown
+permalink: /:year-:month-:day/:title.html
+sass:
+  sass_dir: _sass
+  style: compressed
+
+collections:
+  posts:
+    output: true
+    permalink: /:year-:month-:day/:title.html
+  posts_en:
+    output: true
+    permalink: /en/:year-:month-:day/:title.html
+    sort_by: date
+
+include: [".htaccess"]
+exclude:
+  [
+    "Gemfile",
+    "Gemfile.lock",
+    "README.md",
+    "LICENSE",
+    "package.json",
+    "node_modules",
+  ]
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-pdf-embed
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Custom Site Settings
+showBuyCoffee: true
+payImage: //gw.alipayobjects.com/zos/k/vb/1.png
+assetUrl: //tw93.fun/images/
+defaultImage: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
