@@ -1,10 +1,9 @@
-_site
-.sass-cache
 .DS_Store
-.bower_components
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy*/
+.deploy_git*/
 .idea
-node_modules
-# Ignore the config file that's used for gh-pages.
-_config.gh-pages.yml
-.jekyll-cache
-.vscode

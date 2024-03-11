@@ -1,22 +1,32 @@
 {
-  "name": "tw93",
-  "author": "Tw93<tw93@qq.com>",
-  "homepage": "https://tw93.fun",
+  "name": "hexo-theme-anzhiyu",
+  "version": "1.6.12",
+  "description": "A Simple and Card UI Design theme for Hexo",
+  "main": "package.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hexo",
+    "theme",
+    "anzhiyu",
+    "Card UI Design",
+    "AnZhiYu",
+    "hexo-theme-anzhiyu"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/tw93/tw93.github.io"
+    "url": "https://github.com/anzhiyu-c/hexo-theme-anzhiyu.git"
   },
   "bugs": {
-    "url": "https://github.com/tw93/tw93.github.io/issues"
+    "url": "https://github.com/anzhiyu-c/hexo-theme-anzhiyu/issues",
+    "email": "me@anheyu.com"
   },
-  "scripts": {
-    "prep": "gem install bundler && bundle install",
-    "dev": "bundle exec jekyll serve --watch --trace",
-    "start": "npm run dev",
-    "build": "bundle exec jekyll build",
-    "min": "uglifyjs ./js/index.js -o ./js/index.min.js  --comments all"
+  "dependencies": {
+    "hexo-renderer-stylus": "^3.0.0",
+    "hexo-renderer-pug": "^3.0.0"
   },
-  "devDependencies": {
-    "uglify-js": "^2.7.5"
-  }
+  "homepage": "https://blog.anheyu.com/",
+  "author": "anzhiyu <me@anheyu.com>",
+  "license": "GPL-3.0"
 }
